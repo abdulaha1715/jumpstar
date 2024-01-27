@@ -23,6 +23,7 @@
 /* 01. Default css */
 body {
     font-family: Poppins, Helvetica, sans-serif !important;
+    background-image: url(../images/parallax-bg-1.png);
 }
 
 p {
@@ -89,7 +90,6 @@ li {
 /* 03. Auth form area */
 .jpp-auth-area {
     border-top: 3px solid #f5cd8a;
-    background-image: url(../images/parallax-bg-1.png);
     padding: 20px 0;
 }
 
