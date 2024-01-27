@@ -63,6 +63,14 @@ li {
     margin-left: auto;
 }
 
+.wide-container {
+    width: 1120px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* 02. Variables */
 :root {
     --primary: #f15724;
@@ -78,7 +86,8 @@ li {
 .jpp-top-bar {
     background-color: rgb(245, 205, 138);
     background-image: linear-gradient(100deg, rgb(173, 110, 1) 1%, rgb(252, 235, 167) 100%);
-    padding: 15px 0;
+    padding: 18px 0;
+    border-bottom: 3px solid #f5cd8a;
 }
 
 .jpp-top-bar b {
@@ -87,9 +96,28 @@ li {
     font-weight: 500;
 }
 
+.jpp-main-menu {
+    text-align: right;
+}
+
+.jpp-main-menu ul {}
+
+.jpp-main-menu ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.jpp-main-menu ul li a {
+    color: #032051;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
 /* 03. Auth form area */
 .jpp-auth-area {
-    border-top: 3px solid #f5cd8a;
     padding: 20px 0;
 }
 
@@ -195,6 +223,90 @@ li {
     text-decoration: underline;
 }
 
+
+/* 04. Lessons site logo */
+section.jpp-lesson-site-logo {
+    padding-top: 20px;
+}
+
+.jpp-site-logo-wrap {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.jpp-site-logo-wrap img {
+    max-width: 200px;
+}
+
+
+/* 05. Lessons top area */
+.jpp-lesson-top-area {
+
+}
+
+section.jpp-lesson-top-area .row {
+    color: #FFFFFF;
+    background: rgb(0, 53, 88);
+    padding: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.jpp-lessons-head {}
+
+.jpp-lessons-head span {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+
+/* 06. Lessons List */
+section.jpp-lessons-wrapper {}
+
+section.jpp-lessons-wrapper .row {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+    padding: 20px 0 40px;
+}
+
+.jpp-lessons-module {}
+
+.jpp-lessons-module ul {}
+
+.jpp-lessons-module ul li {}
+
+.jpp-lessons-module ul li a {}
+
+.jpp-lesson-content {
+    text-align: center;
+    padding: 60px 20px;
+    border-color: rgba(47, 47, 47, 0.14902);
+    background-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 5px;
+}
+
+.jpp-lesson-content h3 {}
+
+.jpp-lesson-content p {}
+
+.jpp-lesson-content a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3em;
+    background: linear-gradient(90deg, rgba(69,142,255,1) 0%, rgba(0,20,222,1) 50%, rgba(69,142,255,1) 100%);
+    box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22), 0 233px 233px 0 rgba(255,255,255,0.12) inset;
+    border-radius: 3px;
+    padding: 10px 25px;
+    display: block;
+    width: max-content;
+    text-align: center;
+    margin: 30px auto 0;
+}
 
 /* 00. Copyright area */
 
