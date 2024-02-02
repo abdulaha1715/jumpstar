@@ -479,12 +479,65 @@ section.jpp-two-option p {
 }
 
 section.jpp-two-option h2 {
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 0;
     color: #f5cd8a;
     font-size: 44px;
     font-family: "Merriweather", serif;
     font-weight: 700;
     line-height: 1em;
+}
+
+
+
+/*  */
+
+section.jpp-two-option-details {
+    padding: 40px 0;
+}
+
+.jpp-option-img {}
+
+.jpp-option-img img {
+    max-width: 175px;
+}
+
+.jpp-option-content {}
+
+.jpp-option-content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.jpp-dotted-border {
+    margin: 15px 0 35px;
+    border-top: 5px dotted rgb(245, 202, 145);
+}
+
+
+/*  */
+
+.jpp-andrea-dickerson {
+    padding: 100px 0;
+    background-image: url(../images/bottom-about-bg.jpg);
+}
+
+.jpp-andrea-dickerson-content {}
+
+.jpp-andrea-dickerson-content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.jpp-singnature {}
+
+.jpp-singnature img {
+    max-width: 250px;
+}
+
+.jpp-andrea-dickerson-content .btn {
+    margin: 10px 0 0 0;
 }
 
 
